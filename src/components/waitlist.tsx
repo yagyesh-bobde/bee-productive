@@ -43,7 +43,7 @@ export function WaitlistComponent() {
             </ul>
 
             <div className="flex flex-col  gap-4 text-zinc-400 text-sm">
-              <AnimatedTooltipPreview /> 
+              {/* <AnimatedTooltipPreview />  */}
               <p>Join 2,500+ people already on the waitlist</p>
             </div>
           </div>
