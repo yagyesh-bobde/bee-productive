@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Waitlist } from "@clerk/nextjs"
+import { AnimatedTooltipPreview } from "./animated-tooltip-preview"
 
 export function WaitlistComponent() {
   return (
@@ -41,31 +42,9 @@ export function WaitlistComponent() {
               </li>
             </ul>
 
-            <div className="flex items-center gap-4 text-zinc-400 text-sm">
-              <div className="flex -space-x-2">
-                <Image
-                  src="/placeholder.svg?height=40&width=40"
-                  width={40}
-                  height={40}
-                  className="rounded-full border-2 border-zinc-900"
-                  alt="User avatar"
-                />
-                <Image
-                  src="/placeholder.svg?height=40&width=40"
-                  width={40}
-                  height={40}
-                  className="rounded-full border-2 border-zinc-900"
-                  alt="User avatar"
-                />
-                <Image
-                  src="/placeholder.svg?height=40&width=40"
-                  width={40}
-                  height={40}
-                  className="rounded-full border-2 border-zinc-900"
-                  alt="User avatar"
-                />
-              </div>
-              <span>Join 2,500+ people already on the waitlist</span>
+            <div className="flex flex-col  gap-4 text-zinc-400 text-sm">
+              <AnimatedTooltipPreview /> 
+              <p>Join 2,500+ people already on the waitlist</p>
             </div>
           </div>
 

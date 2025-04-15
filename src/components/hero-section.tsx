@@ -2,6 +2,7 @@
 
 import { ArrowRight, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import BlurText from "./animations/BlurText/BlurText"
 
 export function HeroSection() {
   return (
@@ -38,22 +39,22 @@ export function HeroSection() {
             <div className="flex items-start gap-3">
               <CheckCircle className="h-6 w-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-medium text-white">Task Management</h3>
-                <p className="text-zinc-400">Create and track your goals with our intuitive interface</p>
+                <BlurText text="Task Management" className="font-medium text-white" />
+                <BlurText text="Create and track your goals with our intuitive interface" className="text-zinc-400" />
               </div>
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle className="h-6 w-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-medium text-white">Global Community</h3>
-                <p className="text-zinc-400">Connect with people sharing similar goals worldwide</p>
+                <BlurText text="Global Community" className="font-medium text-white" />
+                <BlurText text="Connect with people sharing similar goals worldwide" className="text-zinc-400" />
               </div>
             </div>
             <div className="flex items-start gap-3">
               <CheckCircle className="h-6 w-6 text-emerald-400 flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-medium text-white">Cash Rewards</h3>
-                <p className="text-zinc-400">Earn real money by completing your tasks and goals</p>
+                <BlurText text="Cash Rewards" className="font-medium text-white" />
+                <BlurText text="Earn real money by completing your tasks and goals" className="text-zinc-400" />
               </div>
             </div>
           </div>
