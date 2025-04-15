@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold mb-4">TaskSocial</h3>
+            <h3 className="text-xl font-bold mb-4">Bee Productive 🐝</h3>
             <p className="text-zinc-400 mb-4 max-w-md">
               The next generation productivity platform that rewards you for completing tasks while connecting you with
               like-minded people.
@@ -27,7 +27,7 @@ export function Footer() {
             </div>
           </div>
 
-          <div>
+          {/* <div>
             <h4 className="font-medium mb-4">Company</h4>
             <ul className="space-y-2">
               <li>
@@ -72,11 +72,11 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
 
         <div className="border-t border-zinc-800 mt-12 pt-8 text-center text-zinc-500 text-sm">
-          <p>© {new Date().getFullYear()} TaskSocial. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} BeeProductive. All rights reserved.</p>
         </div>
       </div>
     </footer>
