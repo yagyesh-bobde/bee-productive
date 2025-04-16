@@ -24,7 +24,7 @@ export function SplashScreen() {
 
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-white z-50">
-      <div className="relative">
+      <div className="relative flex flex-col items-center justify-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -45,7 +45,7 @@ export function SplashScreen() {
 
             {/* Bee icon */}
             <motion.div
-              className="absolute inset-0 flex items-center justify-center"
+              className="absolute inset-0 flex items-center justify-center text-4xl mx-auto"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.5 }}
@@ -107,7 +107,7 @@ export function SplashScreen() {
           transition={{ delay: 0.5, duration: 0.5 }}
           className="mt-4 text-sm text-gray-500 text-center"
         >
-          Loading your productivity journey...
+          Give a boost to your productivity...
         </motion.p>
       </div>
 
