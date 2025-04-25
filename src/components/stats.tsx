@@ -19,7 +19,7 @@ export function Stats() {
       const daysDiff = Math.max(0, Math.floor(timeDiff / (1000 * 3600 * 24)))
       
       // Calculate new waitlist count (initial + 50 per day)
-      const newWaitlist = waitlist + (daysDiff * 50)
+      const newWaitlist = waitlist + (daysDiff * 10)
       setCurrentWaitlist(newWaitlist)
     }
     
